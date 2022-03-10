@@ -2,7 +2,7 @@
 
 ## About
 
-This project is a web scraping app that scrapes data from a top music charts webpage and saves the data to a database.
+This project is a web scraping app that scrapes data from a top music charts webpage and saves the data to a database. Puppeteer is used to scrape web data and POSTGRES is used to save the scraped data.
 
 #### Installation
 
