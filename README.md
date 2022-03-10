@@ -28,7 +28,7 @@ label VARCHAR(100) NOT NULL );
 
 7. Once you have installed everything and are setup, you are ready to clone the repository. To clone the repository, open up a terminal and run `git clone https://github.com/kyledavis109/Puppet` to clone the repository into a folder on your computer.
 
-8. A `.env` file to store environmental variables for the database is required. These variables will be sensitive information so it's best to not share them with anyone. Create a `.env` file in the root directory of this file and store the environmental variables as follows:
+8. A `.env` file to store an environmental variable for the database is required. This variable will be sensitive information so it's best to not share it with anyone. Create a `.env` file in the root directory of this file and store the environmental variable as follows:
 
 ```
 
