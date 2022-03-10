@@ -12,8 +12,6 @@
   "dependencies": {
     "dotenv": "^16.0.0",
     "pg": "^8.7.3",
-    "pg-format": "^1.0.4",
-    "pg-promise": "^10.11.1",
-    "puppeteer": "^13.4.0"
+    "puppeteer": "^13.5.1"
   }
 }
