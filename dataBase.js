@@ -15,7 +15,7 @@ async function postgres() {
 
     // Scraped artist data.
     const artist = show[2]
-    
+
     // Scraped chart position data.
     const chartPosition = show[3]
 
@@ -50,10 +50,3 @@ async function postgres() {
 
 puppet()
 postgres()
-
-//wrap everything in its own function have a master function that you just pass in data as argument like twitter bot
-// helper functions and main funtion
-// get puppeteer to scrape at a set interval every week or so
-// add comments
-// make program more modular
-// add to github repo
