@@ -8,22 +8,22 @@ async function puppet() {
     const url = 'https://www.officialcharts.com/charts/progressive-albums-chart/'
     await page.goto(url, {waitUntil: 'domcontentloaded', timeout: 0})
 
-    // Gets title of songs and groups them into an array.
+    // Gets title of albums and groups them into an array.
     const song = await page.evaluate(() => {
         return Array.from(document.querySelectorAll('#main > article > div > div.grid__cell.unit-2-3--desktop > section > table > tbody > tr > td > div > div.title-artist > div.title > a')).map(x => x.textContent)
     })
 
-    // Gets labels of songs and groups them into an array.
+    // Gets labels of albums and groups them into an array.
     const label = await page.evaluate(() => {
         return Array.from(document.querySelectorAll('#main > article > div > div.grid__cell.unit-2-3--desktop > section > table > tbody > tr > td > div > div.title-artist > div.label-cat > span')).map(x => x.textContent)
     })
 
-    // Gets artist names of songs and groups them into an array.
+    // Gets artist names of albums and groups them into an array.
     const artist = await page.evaluate(() => {
         return Array.from(document.querySelectorAll('#main > article > div > div.grid__cell.unit-2-3--desktop > section > table > tbody > tr > td > div > div.title-artist > div.artist > a')).map(x => x.textContent)
     })
 
-    // Gets the chart positions of songs and groups them into an array.
+    // Gets the chart positions of albums and groups them into an array.
     const chartPosition = await page.evaluate(() => {
         return Array.from(document.querySelectorAll('.position')).map(x => x.textContent)
     })
