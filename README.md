@@ -1,4 +1,4 @@
-# Puppet
+# Top 30 Albums Scraper
 
 ## About
 
@@ -26,7 +26,7 @@ label VARCHAR(100) NOT NULL );
 
 ```
 
-6. Once you have installed everything and are setup, you are ready to clone the repository. To clone the repository, open up a terminal and run `git clone https://github.com/kyledavis109/Puppet` to clone the repository into a folder on your computer.
+6. Once you have installed everything and are setup, you are ready to clone the repository. To clone the repository, open up a terminal and run `git clone https://github.com/kyledavis109/Top-30-Albums-Scraper` to clone the repository into a folder on your computer.
 
 7. A `.env` file to store an environmental variable for the database is required. This variable will be sensitive information so it's best to not share it with anyone. Create a `.env` file in the root directory of this file and store the environmental variable as follows:
 
