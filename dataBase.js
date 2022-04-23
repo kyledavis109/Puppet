@@ -7,7 +7,7 @@ async function postgres() {
     // Arrays of scraped data returned from puppet.js start() function grouped into an array.
     const show = await puppet();
 
-    // Scraped songs
+    // Scraped songs.
     const song = show[0];
 
     // Scraped label data.
